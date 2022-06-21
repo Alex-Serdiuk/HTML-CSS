@@ -1,0 +1,21 @@
+
+h1{
+    color: #fff;
+    font-style: normal;
+    font-family: Calibri, sans-serif;
+}
+
+p{
+    text-indent: 10px;
+    font-style: italic;
+    font-family: 'Bookman Old', serif;
+}
+
+html{
+    height: 100%;
+    background-color: rgb(255, 204, 1);
+    background-image: url(/image/bg.jpg);
+    background-repeat: round no-repeat;
+    background-size: auto;
+    background-position: 50% 100%;
+}
