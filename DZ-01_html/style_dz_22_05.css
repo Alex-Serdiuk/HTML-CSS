@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(217, 217, 217);
+}
+
+.txt_blue_head{
+    font-size: 2em;
+    color: #076cb4;
+}
+
+.txt_blue{ 
+    color: #076cb4;
+}
+
+.txt_red{ 
+    color: #bd0f34;
+}
+
+.txt_green{ 
+    color: #53be21;
+}
+
+.txt_orange{ 
+    color: #ffa500;
+}
+
+.txt_pink{ 
+    color: #7722b4;
+}
+
+._under_wavy{
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: red;
+}
+
+.font_georg{
+    font-family: Georgia, serif;
+}
+
+
+p{
+    text-indent: 35px;
+    width: 740px;
+    font-family: Arial, serif;
+}
+
+#unique{
+    width: 710px;
+}
