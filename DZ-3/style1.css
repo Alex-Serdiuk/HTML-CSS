@@ -1,0 +1,277 @@
+a,
+b,
+body,
+div,
+h1,
+header,
+html,
+i,
+img,
+li,
+p,
+span,
+strong,
+sub,
+u,
+ul
+ {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline
+}
+
+body {
+    font-family: 'San Francisco', 'Segoe UI', 'Helvetica Neue', Helvetica, sans-serif;
+    background: #fff;
+    color: #000;
+    position: relative;
+    line-height: 1
+}
+
+* {
+    box-sizing: border-box;
+    outline: 0
+}
+
+a {
+    text-decoration: none;
+    color: #1344b0
+}
+
+.container {
+    margin: 0 auto;
+    width: 1010px;
+    min-height: 100vh;
+    min-width: 1010px;
+    max-width: 1010px;
+    background-color: #fff;
+    position: relative
+}
+
+.h1,
+h1 {
+    font-size: 19px;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    font-family: 'Helvetica Neue', Helvetica, sans-serif
+}
+
+.h1+p,
+h1+p {
+    font-size: 14px;
+    font-weight: 400;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #696969;
+    padding-left: 20px
+}
+
+.afisha-page h1 {
+    margin-bottom: 20px;
+    font-weight: 600
+}
+
+.container {
+    margin: 0 auto;
+    width: 1010px;
+    min-height: 100vh;
+    min-width: 1010px;
+    max-width: 1010px;
+    background-color: #fff;
+    position: relative
+}
+
+.afisha-page .content_left {
+    width: 660px
+}
+
+.content {
+    justify-content: space-between
+}
+
+.content_left {
+    width: 650px;
+    margin-left: 10px;
+    float:left;
+}
+
+.movie_block{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start; 
+    padding: 10px 0;
+} 
+
+.movie_list .movie_details{
+    width: calc(100% - 230px)
+}
+
+.movie_list .movie_photo .photo_block{
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    position: relative
+}
+
+.movie_list .movie_photo img{
+    min-width: 100%;
+    min-height: 100%;
+    height: 100%;
+}
+
+a.movie_photo {
+    display: inline-block
+}
+
+div {
+    display: block;
+}
+
+.movie_list .movie_details .countries,
+.movie_list .movie_details>p{
+    font-size: 14px;
+    font-weight: 400;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #696969;
+    margin-bottom: 8px;
+    padding-right: 15px
+}
+
+.movie_list .movie_details .countries span,
+.movie_list .movie_details>p span{
+    color: #333;
+    margin-left: 3px
+}
+
+.movie_list .movie_details .countries a,
+.movie_list .movie_details>p a{
+    color: #1344b0;
+    text-decoration: none;
+    margin-left: 3px
+}
+
+.movie_list .movie_title{
+    font-size: 21px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: .95;
+    letter-spacing: .25px;
+    color: #1344b0;
+    margin-bottom: 12px;
+    display: inline-block;
+    max-width: 365px;
+    text-decoration: underline;
+}
+
+.movie_list .movie_details .countries,
+.movie_list .movie_details>p{
+    font-size: 14px;
+    font-weight: 400;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #696969;
+    margin-bottom: 8px;
+    padding-right: 15px
+}
+
+.movie_list .movie_details .countries span,
+.movie_list .movie_details>p span{
+    color: #333;
+    margin-left: 3px
+}
+
+.movie__list .movie__details .countries a,
+.movie__list .movie__details>p a{
+    color: #1344b0;
+    text-decoration: none;
+    margin-left: 3px
+}
+
+.movie_list .cinema_details>p a:hover,
+.movie_list .movie_details .countries a:hover,
+.movie_list .movie_details>p a:hover{
+    text-decoration: underline
+}
+
+.movie_list .movie_details .countries{
+    color: #333;
+    margin-bottom: 10px;
+    white-space: nowrap;
+}
+
+.movie_list .movie_utility{
+    margin-top: 12px
+}
+
+.movie_list .movie_utility>a{
+    font-size: 14px;
+    font-weight: 400;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #1344b0
+}
+
+.movie_list .movie_utility a{
+    text-decoration: underline
+}
+
+.movie_list ul {
+    list-style: none;
+}
+
+li{
+    text-align: -webkit-match-parent;
+}
+ .movie_photo{
+     float: left;
+    margin-right: 20px;
+ }
+  .movie_details{
+     float: inline-end;
+ } 
+
+ h1{
+    font-weight: 600;
+    font-size: 19px;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    font-family: 'Helvetica Neue',Helvetica,sans-serif;
+    display: block;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+ }
+
+ .header--botom{
+width: 600px;
+ }
+
+ .header--botom>a{
+    background: url(/images/a.gif) no-repeat 3px;
+   padding-left: 13px;
+   text-decoration: underline;
+ }
