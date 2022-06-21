@@ -1,0 +1,474 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;700&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html{
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+}
+
+html, body{
+    overflow-x: hidden;
+}
+
+*, ::after, ::before{
+    box-sizing: border-box;
+}
+
+::selection {
+    background: #4fc1f0;
+    color: #fff;
+    text-shadow: none;
+}
+
+body{
+    color: #33354b;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    font-family: 'Rubik', sans-serif;
+    margin: 0;
+    background-color: #fff;
+    display: block;
+}
+
+.servive-area{
+    padding: 100px 0 70px;
+}
+
+div{
+    display: block;
+}
+
+@media (min-width:576px) {
+
+    .container{
+        max-width: 540px
+    }
+
+    .col-lg-6 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%
+    }
+}
+
+@media (min-width:768px) {
+
+    .container {
+        max-width: 720px
+    }
+}
+
+@media (min-width:992px) {
+
+    .container {
+        max-width: 960px
+    }
+
+    .col-lg-3 {
+        -ms-flex: 0 0 25%;
+        flex: 0 0 25%;
+        max-width: 25%
+    }
+}
+
+@media (min-width:1200px) {
+
+    .container
+     {
+        max-width: 1140px
+    }
+}
+
+.container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+
+.col-lg-3,
+.col-lg-6,
+.col-md-6,
+.col-sm-12
+ {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px
+}
+
+.dreamit-section-title {
+    margin-bottom: 35px;
+}
+
+.text-left{
+    text-align: left!important;
+}
+
+.dreamit-section-title:after {
+    position: absolute;
+    content: "";
+    left: -5px;
+    top: -16px;
+    background: url(images/section1.png);
+    width: 63px;
+    height: 63px;
+    display: inline-block;
+    background-repeat: no-repeat;
+}
+
+.dreamit-section-title h5 {
+    position: relative;
+    z-index: 1;
+    color: #F14130;
+    padding: 0 0 18px;
+    font-size: 20px;
+    margin-top: 11px;
+    margin-bottom: 4px;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #151423;
+    font-family: 'Rajdhani', sans-serif;
+    font-style: normal;
+    margin-bottom: 0;
+    margin-top: 11px;
+    line-height: 1.2;
+    font-weight: 700;
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+
+.h5, h5 {
+    font-size: 1.25rem;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h3, h4, h5, h6 {
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+h5 {
+    display: block;
+    font-size: 0.83em;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.dreamit-section-title h5:before {
+    position: absolute;
+    content: "";
+    z-index: -1;
+    width: 145px;
+    height: 37px;
+    background: linear-gradient(to right, #FDDCE6 0%, #FBF0F1 100%);
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: -6px;
+    border-radius: 3px;
+    display: inline-block;
+}
+
+.dreamit-section-title h1 {
+    font-size: 50px;
+    line-height: 1;
+    color: #151423;
+    text-transform: uppercase;
+     font-weight: 700; 
+}
+
+.h1, h1 {
+    font-size: 2.5rem;
+}
+
+.dreamit-section-title span {
+    color: #ED2C41;
+}
+
+.col-lg-3.col-md-6.col-sm-12.padding-left {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.dreamit-sinlge-service-box {
+    transition: .5s;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    background: #f8fafb;
+    box-shadow: 0px 0 6px rgb(26 46 85 / 10%);
+    padding: 44px 32px 5px;
+}
+
+.active .dreamit-service-icon i {
+    color: #fff;
+}
+
+.active .dreamit-service-title h2 {
+    color: #fff;
+}
+
+.active .dreamit-service-title p{
+    color: #fff;
+}
+
+.active.dreamit-sinlge-service-box:before {
+    position: absolute;
+    content: "";
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background: #ed2c41;
+    left: 0;
+    bottom: 0;
+    transition: .5s;
+}
+
+.dreamit-sinlge-service-box-1 {
+    transition: .5s;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    background: #fff;
+    box-shadow: 0px 0 6px rgb(26 46 85 / 10%);
+    padding: 44px 32px 5px;
+}
+
+.dreamit-sinlge-service-box2 {
+    text-align: center;
+    background: #f8fafb;
+    box-shadow: 0px 0 6px rgb(26 46 85 / 10%);
+    padding: 72px 20px 94px;
+}
+
+.dreamit-sinlge-service-box:hover:before {
+    height: 100%;
+    background: #ed2c41;
+}
+
+.dreamit-sinlge-service-box-1:hover:before {
+    height: 100%;
+    background: #ed2c41;
+}
+
+.dreamit-sinlge-service-box:hover .dreamit-service-icon i, .dreamit-sinlge-service-box:hover .dreamit-service-title h2,
+.dreamit-sinlge-service-box:hover .dreamit-service-title p{
+    color: #fff;
+}
+.dreamit-sinlge-service-box-1:hover .dreamit-service-icon i, .dreamit-sinlge-service-box-1:hover .dreamit-service-title h2,
+.dreamit-sinlge-service-box-1:hover .dreamit-service-title p{
+    color: #fff;
+}
+
+.dreamit-sinlge-service-box:before {
+    position: absolute;
+    content: "";
+    z-index: -1;
+    width: 100%;
+    height: 0;
+    background: #ed2c41;
+    left: 0;
+    bottom: 0;
+    transition: .5s;
+}
+
+.dreamit-sinlge-service-box-1:before {
+    position: absolute;
+    content: "";
+    z-index: -1;
+    width: 100%;
+    height: 0;
+    background: #ed2c41;
+    left: 0;
+    bottom: 0;
+    transition: .5s;
+}
+
+.dreamit-service-icon i {
+    font-size: 60px;
+    color: #ED2C41;
+    display: inline-block;
+    transition: .5s;
+    margin: 0;
+}
+
+a, i, cite, em, var, address, dfn, ol, li, ul {
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Flaticon";
+    src: url("webfonts/Flaticon.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.flaticon-growth:before {
+    content: "\f18d";
+}
+
+.flaticon-clock:before {
+    content: "\f178";
+}
+
+.flaticon-pen:before {
+    content: "\f124";
+}
+
+.flaticon-chat:before {
+    content: "\f103";
+}
+
+.flaticon-money-2:before {
+    content: "\f17d";
+}
+
+@font-face {
+    font-family: "Font Awesome 5 Free";
+    font-style: normal;
+    font-weight: 900;
+    font-display: block;
+    src: url(webfonts/fa-solid-900.woff2) format("woff2");
+}
+
+.fa,
+.fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1
+}
+
+.fa,
+.fas {
+    font-family: "Font Awesome 5 Free"
+}
+
+.fa-plus:before {
+    content: "\f067";
+}
+
+.fa, .fas {
+    font-weight: 900;
+}
+
+.fa, .fas {
+    font-family: "Font Awesome 5 Free";
+}
+
+.fa, .fas {
+    -webkit-font-smoothing: antialiased;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;  
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+    font-family: Flaticon;
+    font-style: normal;
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+    font-family: Flaticon;
+    font-style: normal;
+}
+
+
+
+.dreamit-service-title h2 {
+    font-size: 24px;
+    margin: 20px 0 8px;
+    transition: .5s;
+    line-height: 1;
+}
+
+.dreamit-service-title p{
+    transition: .5s;
+}
+
+p {
+    font-weight: 400;
+    font-style: normal;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.service-button a {
+    background: #e91f4f;
+    padding: 14px 38px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 18px;
+    display: inline-block;
+    margin-top: 24px;
+    transition: .5s;
+    font-family: 'Rajdhani';
+    font-weight: 600;
+    z-index: 1;
+}
+
+.service-button a:hover {
+    background: #1a1829;
+    color: #fff;
+    border:none;
+}
+
+a{
+    font-style: normal;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.service-button i {
+    display: inline-block;
+    font-size: 13px;
+    margin-left: 7px;
+    width: 22px;
+    height: 22px;
+    line-height: 24px;
+    text-align: center;
+    background: #fff;
+    color: #151423;
+    border-radius: 100%;
+    transition: .3s;
+}
+
+
